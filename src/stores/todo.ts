@@ -57,5 +57,9 @@ export const useTodoStore = defineStore("todo", {
     createTodo(task: string) {
       this.todos.unshift({ id: this.nextId++, task, completed: false });
     },
+    removeTodo(todo: Todo) {
+      if (this.todos.indexOf(todo) >= 0)
+        this.todos.splice(this.todos.indexOf(todo), 1);
+    },
   },
 });

@@ -88,6 +88,7 @@ export default defineComponent({
               {{ todo.task }}
             </span>
           </label>
+          <button class="" @click="store.removeTodo(todo)">[x]</button>
         </li>
       </ul>
     </div>
