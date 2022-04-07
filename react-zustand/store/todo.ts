@@ -42,7 +42,7 @@ const useTodoStore = create<TodoState>((set) => ({
     }),
   removeTodo: (todo: Todo) =>
     set((state) => {
-      return { todos: state.todos.filter((td) => td !== todo) };
+      return { todos: state.todos.filter((td) => td.id !== todo.id) };
     }),
   toggleCompleted: (todo: Todo) =>
     set((state) => {
