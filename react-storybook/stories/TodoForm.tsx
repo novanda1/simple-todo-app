@@ -10,7 +10,8 @@ export const TodoForm: React.VFC = () => {
           <input
             placeholder="Add new todo"
             type="text"
-            v-model="input"
+            value={input}
+            onChange={handleChange}
             className="text-emerald-800 px-3 py-2"
           />
           <button type="submit" className="px-5 py-2 bg-emerald-500">
@@ -25,7 +26,6 @@ export const TodoForm: React.VFC = () => {
           </span>
         )}
       </form>
-      <input value={input} onChange={handleChange} />
     </div>
   );
 };
