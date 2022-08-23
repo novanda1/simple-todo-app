@@ -8,3 +8,4 @@ As Javascript developer we love To-Do App so much!
 |       [vue3-vuex](https://github.com/novanda1/simple-todo-app/tree/main/vue3-vuex)       | Vue 3 Composition API (ts) |       Vuex       |
 |   [react-zustand](https://github.com/novanda1/simple-todo-app/tree/main/react-zustand)   |     React Nextjs (ts)      |     Zustand      |
 | [react-storybook](https://github.com/novanda1/simple-todo-app/tree/main/react-storybook) |    React Storybook (ts)    |     Zustand      |
+|     [react-jotai](https://github.com/novanda1/simple-todo-app/tree/main/react-jotai)     |      React Next (ts)       |      Jotai       |
